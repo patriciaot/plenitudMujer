@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #BA6E4A;
+    --secondary-color: #FBFBF9;
+    --background: #FBF8F7;
+    --navbar: #FBF7F4;
+    --button-primary-color: #02498E;
+    --button-secondary-color: #FFFFFF;
+}
+
+body{
+    background-color: var(--background);
+}
+
+
+.navbar{
+    background-color: var(--navbar);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.10), 0 2px 4px -2px rgba(0, 0, 0, 0.10);
+    width: 100%;
+}
+
+.navbar-toggler {
+    color: var(--primary-color);
+}
+
+.navbar-toggler:hover{
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    opacity: 0.15;
+}
